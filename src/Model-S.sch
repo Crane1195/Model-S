@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Model S"
-Date "2021-07-16"
-Rev "v2.2"
+Date "2021-10-27"
+Rev "v2.3"
 Comp "Crane's Lab"
 Comment1 ""
 Comment2 ""
@@ -1091,17 +1091,6 @@ F 3 "" H 5150 5450 50  0001 C CNN
 	1    5150 5450
 	1    0    0    1   
 $EndComp
-$Comp
-L Model-S-rescue:TS3USB30-Model_S U2
-U 1 1 5DB586E4
-P 5150 6600
-F 0 "U2" H 4850 6950 50  0000 L CNN
-F 1 "TS3USB30E" V 5150 6450 50  0000 L CNN
-F 2 "Model_S:VSSOP-10_3x3mm_P0.5mm" V 5250 6600 50  0001 C CNN
-F 3 "" V 5250 6600 50  0001 C CNN
-	1    5150 6600
-	1    0    0    -1  
-$EndComp
 Text Notes 5900 5950 2    79   ~ 0
 USB Switch
 Wire Wire Line
@@ -1598,4 +1587,15 @@ Wire Wire Line
 	2450 2800 2700 2800
 Wire Wire Line
 	2450 2750 2450 2800
+$Comp
+L Model-S-rescue:TS3USB30ERSWR-Model_S U2
+U 1 1 6149456D
+P 5150 6600
+F 0 "U2" H 4850 6950 50  0000 L CNN
+F 1 "TS3USB30ERSWR" H 5250 7050 50  0000 L CNN
+F 2 "Model_S:UQFN-10_1.4x1.8mm_P0.4mm" V 4500 6600 50  0001 C CNN
+F 3 "" V 4500 6600 50  0001 C CNN
+	1    5150 6600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

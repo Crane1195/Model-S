@@ -1,4 +1,4 @@
-update=12/15/2021 12:37:54 AM
+update=12/15/2021 12:44:46 AM
 version=1
 last_client=eeschema
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Model_S_v2.2.net
+LastNetListRead=Model_S_v2.3.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -29,10 +29,11 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.15
 TrackWidth1=0.25
-TrackWidth2=0.3
-TrackWidth3=0.4
-TrackWidth4=0.6
-TrackWidth5=0.78
+TrackWidth2=0.225
+TrackWidth3=0.3
+TrackWidth4=0.4
+TrackWidth5=0.6
+TrackWidth6=0.78
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
