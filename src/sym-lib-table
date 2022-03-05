@@ -1,6 +1,3 @@
 (sym_lib_table
-  (lib (name Model_S_v2.1-rescue)(type Legacy)(uri ${KIPRJMOD}/Model_S_v2.1-rescue.lib)(options "")(descr "")(disabled))
-  (lib (name Model_S_v2.1-cache)(type Legacy)(uri ${KIPRJMOD}/Model_S_v2.1-cache.lib)(options "")(descr "")(disabled))
-  (lib (name Model_S)(type Legacy)(uri ${KIPRJMOD}/Symbols/Model_S.lib)(options "")(descr ""))
   (lib (name Model-S-rescue)(type Legacy)(uri ${KIPRJMOD}/Model-S-rescue.lib)(options "")(descr ""))
 )
